@@ -8,11 +8,11 @@ importers:
   .:
     dependencies:
       axios:
-        specifier: ^1.7.7
-        version: 1.7.7
+        specifier: ^1.11.0
+        version: 1.11.0
       bcryptjs:
-        specifier: ^2.4.3
-        version: 2.4.3
+        specifier: ^3.0.2
+        version: 3.0.2
       dotenv:
         specifier: ^16.3.1
         version: 16.3.1
@@ -22,12 +22,18 @@ importers:
       express-session:
         specifier: ^1.17.3
         version: 1.17.3
+      kit:
+        specifier: ^2.0.30
+        version: 2.0.30
       multer:
         specifier: ^1.4.5-lts.1
         version: 1.4.5-lts.1
       mysql:
         specifier: ^2.18.1
         version: 2.18.1
+      pdf:
+        specifier: ^0.1.0
+        version: 0.1.0
       pdfkit:
         specifier: ^0.17.1
         version: 0.17.1

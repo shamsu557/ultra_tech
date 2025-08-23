@@ -3,14 +3,16 @@ lockfileVersion: '9.0'
 settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
-
 importers:
 
   .:
     dependencies:
-      bcrypt:
-        specifier: ^5.1.1
-        version: 5.1.1
+      axios:
+        specifier: ^1.7.7
+        version: 1.7.7
+      bcryptjs:
+        specifier: ^2.4.3
+        version: 2.4.3
       dotenv:
         specifier: ^16.3.1
         version: 16.3.1
@@ -26,6 +28,9 @@ importers:
       mysql:
         specifier: ^2.18.1
         version: 2.18.1
+      pdfkit:
+        specifier: ^0.17.1
+        version: 0.17.1
     devDependencies:
       nodemon:
         specifier: ^3.0.1
